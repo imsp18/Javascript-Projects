@@ -35,3 +35,9 @@ function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
+inputBox.addEventListener("keyup",function(e){
+    if(e.key === "Enter"){
+        e.preventDefault();
+        document.getElementById("add-btn").click();
+    }
+});
