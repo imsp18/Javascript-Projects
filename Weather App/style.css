@@ -180,3 +180,59 @@ body {
         font-size: 18px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-image: url(images/Mobile.svg);
+        background-size: cover;
+    }
+
+    .card {
+        margin-top: 90px;
+        padding: 20px;
+
+    }
+
+    .search {
+        flex-direction: row;
+        align-items: center;
+        padding-right: 50px;
+    }
+
+    .search input {
+        font-size: 14px;
+        height: 30px;
+        width: 240px;
+    }
+
+    .search button {
+        width: 30px;
+        height: 30px;
+        padding: 4px 8px;
+    }
+
+    .search button img {
+        padding: 4px 0 4px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 30px;
+    }
+
+    .details {
+        padding: 0px 0px;
+
+
+        .col img {
+            width: 20px;
+        }
+
+        .humidity,
+        .wind {
+            font-size: 16px;
+        }
+    }
