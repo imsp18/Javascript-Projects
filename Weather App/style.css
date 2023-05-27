@@ -10,7 +10,9 @@
 body {
     background-image: url(images/Desktop\ -\ 1.svg);
     background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
 }
 
 .card {
@@ -60,6 +62,7 @@ body {
 
 .search button img {
     width: 16px;
+    padding-top: 4px;
 }
 
 .weather-icon {
@@ -132,12 +135,14 @@ body {
     }
 
     .search {
+        display: flex;
+        width: 100%;
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
     }
 
     .search input {
-        margin-right: 12px;
         margin-bottom: 0;
         flex: 1;
         font-size: 16px;
@@ -151,7 +156,7 @@ body {
     }
 
     .search button img {
-        padding-top: 4px;
+        padding: 4px 2px 0 0 ;
     }
 
     .weather h1 {
@@ -194,15 +199,17 @@ body {
     }
 
     .search {
+        width: 100%;
+        display: flex;
         flex-direction: row;
         align-items: center;
-        padding-right: 50px;
     }
 
     .search input {
         font-size: 14px;
         height: 30px;
-        width: 240px;
+        width: 200px;
+
     }
 
     .search button {
@@ -212,7 +219,7 @@ body {
     }
 
     .search button img {
-        padding: 4px 0 4px;
+        padding: 4px 2px 0 0 ;
     }
 
     .weather h1 {
@@ -236,3 +243,4 @@ body {
             font-size: 16px;
         }
     }
+}
