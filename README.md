@@ -32,4 +32,9 @@ The task will be visually marked as completed.
   
 </details>
 
+### 2. Weather App
 
+The Weather App project is a web application that provides current weather information for a given location. Users can search for a city and view its temperature, humidity, and wind conditions. The project is built using HTML, CSS, and JavaScript.
+
+- Folder: `Weather-App`
+- [Project Link](https://your-demo-link.com)
