@@ -38,3 +38,9 @@ The Weather App project is a web application that provides current weather infor
 
 - Folder: `Weather-App`
 - [Project Link](https://imsp18-weather-app.netlify.app/)
+
+### 3. Color Extension 
+
+A browser extension to easily select and copy webpage colors, simplifying your design workflow. Get hex codes instantly
+
+- Folder: `Color-Picker-Extension`
