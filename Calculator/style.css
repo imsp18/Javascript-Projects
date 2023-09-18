@@ -40,3 +40,18 @@ form .display{
     justify-content: flex-end;
     margin: 20px 0;
 }
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    box-shadow: none;
+    font-size: 45px;
+}
+
+form input.equal{
+    width: 145px;
+}
+
+form input.operator{
+    color: #33ffd8;
+}
